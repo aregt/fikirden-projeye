@@ -1,0 +1,22 @@
+name: "Deneme önerisi / Pilot proposal"
+description: "Bir çözümü küçük ölçekte deneyelim / Propose a small test"
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Sorun ve etkilenen kişiler / Problem and people affected"
+      description: "Varsa tartışma bağlantısını ekle. / Link the discussion if available."
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "Öneri ve en güçlü itiraz / Proposal and strongest objection"
+    validations:
+      required: true
+  - type: textarea
+    id: pilot
+    attributes:
+      label: "Küçük deneme ve gözlenecek sonuç / Small test and observable result"
+    validations:
+      required: true
